@@ -60,6 +60,19 @@ img {
   align-items: center;
 }
 
+.logo {
+  margin-right: 93px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 26px;
+  line-height: 1.192;
+  text-decoration: none;
+}
+.footer .logo {
+  color: var(--color-white);
+}
+
 .header {
   padding-bottom: 25px;
   padding-top: 25px;
@@ -69,16 +82,6 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-}
-
-.logo {
-  margin-right: 93px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  color: #000000;
-  font-size: 26px;
-  line-height: 1.192;
-  text-decoration: none;
 }
 
 .word-web {
@@ -441,9 +444,6 @@ img {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer.logo {
-  color: var(--color-white);
 }
 
 .left-part {
